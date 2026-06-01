@@ -1,0 +1,4 @@
+This app will generate the network diagram based on the information available in ieee_cdf file.
+If the user has only ieee_cdf file then only network diagram will be made, state estimation will not be performed.
+For state estimation the user also have to provide measurement file.
+The functionality of this app is limited to state estimation, observability analysis and detection of bad data.
