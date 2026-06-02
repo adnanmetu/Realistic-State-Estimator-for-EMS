@@ -37,7 +37,6 @@ Run         : python state_estimator.py
 import numpy as np
 from scipy.linalg import solve
 import matplotlib.pyplot as plt
-import re
 import sys
 
 # ── optional pretty-print ─────────────────────────────────────────────────────
@@ -189,21 +188,6 @@ def parse_ieee_cdf(filename: str):
                     g_sh = float(line[106:114]) if len(line) > 106 else 0.0
                     b_sh = float(line[114:122]) if len(line) > 114 else 0.0
                 except (ValueError, IndexError):
-                    # Primary: fixed-width parse
-                    bus_num = int(line[0:4])
-                    bus_name = ' ' #line[5:17].strip()
-                    bus_type = int(line[24:26])
-                    v_mag = float(line[27:33])
-                    v_ang = float(line[33:40])
-                    p_load = 0.0   #float(line[40:49])
-                    q_load = 0.0    #float(line[49:58])
-                    p_gen = 0.0     #float(line[59:67])
-                    q_gen = 0.0     #float(line[67:74])
-                    base_kv = 1.0   #float(line[76:83])
-                    g_sh = float(line[106:114]) if len(line) > 106 else 0.0
-                    b_sh = float(line[114:122]) if len(line) > 114 else 0.0
-                """    
-                except (ValueError, IndexError):
                     # Fallback: whitespace-split
                     p = line.split()
                     bus_num = int(p[0]);
@@ -215,10 +199,10 @@ def parse_ieee_cdf(filename: str):
                     q_load = float(p[8]);
                     p_gen = float(p[9])
                     q_gen = float(p[10]);
-                    base_kv = float(p[11])
-                    g_sh = float(p[15]) if len(p) > 106 else 0.0
-                    b_sh = float(p[16]) if len(p) > 114 else 0.0
-                """
+                    base_kv = float(p[2])
+                    g_sh = 0.0
+                    b_sh = float(p[14]) if len(p) > 14 else 0.0
+
                 buses.append({
                     'num': bus_num,
                     'name': bus_name,
@@ -351,32 +335,7 @@ def parse_measure_dat(filename: str):
         #print(f"length of lines : {len(all_lines)}")
         # ── read the count N for this block ───────────────────────────────────
         #print(f"length of all line is {len(all_lines)}")  # debugging
-        print(f"length of line {ptr} is {len(all_lines[ptr])}")   #debugging
-        print(all_lines[ptr])
-        #print(all_lines[ptr+1])
-        pattern = r'-?\d+\.?\d*'
-        s_n = [
-            match.group()
-            for item in all_lines[ptr]
-            if (match := re.match(pattern, item))
-        ]
-        all_lines[ptr] = s_n
-        print(all_lines[ptr])
-        ###############
-        """
-        s_n1 = [
-            match.group()
-            for item in all_lines[ptr+1]
-            if (match := re.match(pattern, item))
-        ]
-        all_lines[ptr+1] = s_n1
-        """
-        #for text in all_lines[ptr]:
-        #    print(text)
-        #    s_n.append(re.findall(pattern, text))
-        ################
-        #print(all_lines[ptr+1])
-        #print((all_lines[ptr]).strip())
+        #print(f"length of line is {len(all_lines[ptr])}")   #debugging
         try:
             check_length = len(all_lines[ptr])  #check for end of file or false data
             while(ptr < (len(all_lines)) and check_length != 1):    #check for end of file or false (short) data
@@ -433,15 +392,6 @@ def parse_measure_dat(filename: str):
                 print(f"[MEAS] WARNING: file ended before all {N} records "
                       f"in block {block_idx + 1} were read")
                 break
-            ####################
-            n_s = [
-                match.group()
-                for item in all_lines[ptr]
-                if (match := re.match(pattern, item))
-            ]
-            all_lines[ptr] = n_s
-            print(all_lines[ptr])
-            ####################
             tokens = all_lines[ptr]
             #print(f"length of line is {len(all_lines[ptr])}")   #debugging
             ptr += 1
@@ -811,10 +761,9 @@ def build_measurement_vector(file_measurements, buses, branches,
     print(f"[Z] Total measurements m  : {m_total}")
     print(f"[Z] State dimension 2n-1  : {n_states}")
     print(f"[Z] Redundancy m/(2n-1)   : {m_total / n_states:.3f}  (>1 required)")
-    #######################
     print(f"[Z] Weight 1/σ² range     : "
           f"{np.min(np.diag(W)):.1f} … {np.max(np.diag(W)):.1f}")
-    #######################
+
     type_counts = {}
     for mm in meta_list:
         type_counts[mm['type']] = type_counts.get(mm['type'], 0) + 1
@@ -1291,16 +1240,15 @@ def ac_wls_estimator(buses, branches, bus_idx, G, B,
 
     ################## plots ############
     #print(f"residual plot test: {log_rows}")   #for debugging purpose only
-    if(converged):
-        residual = [row[4] for row in log_rows]
+    residual = [row[4] for row in log_rows]
 
-        plt.figure()
-        plt.stem(residual)
-        plt.grid(True)
-        plt.title("Convergence Result Values")
-        plt.xlabel("WLS iterations")
-        plt.ylabel("|Δx| value decreases in upward direction")
-        plt.show(block=False)
+    plt.figure()
+    plt.stem(residual)
+    plt.grid(True)
+    plt.title("Convergence Result Values")
+    plt.xlabel("WLS iterations")
+    plt.ylabel("|Δx| value decreases in upward direction")
+    plt.show(block=False)
 
     #######################
     return V, T, r_f, converged
