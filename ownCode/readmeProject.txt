@@ -89,7 +89,7 @@ Notes:
 1. If the absolute value of the first measurement in block 2 is greater than 0.1, it will be considered as power injection measurement block and not as voltage angle measurement..
 2. The parsing of measurement file is very important and tricky, all calculations depend on this parsing.
 3. The program assumes the measurements are synchronized and there is no time skew.
-4. The program is tested with 6 different types of test cases and it works fine.
+4. The program is tested with 7 different types of test cases and it works fine.
 
 Graph
 Figure 1 is residuals graph.
