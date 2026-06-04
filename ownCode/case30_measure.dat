@@ -1,0 +1,293 @@
+  30--------------------------------------------------------> Number of voltage magnitude measurements
+   1  1.00000 0.001 0----> Location Value Std.dev. residual
+   2  1.00000 0.001 0----> Location Value Std.dev. residual
+   3  0.98300 0.001 0----> Location Value Std.dev. residual
+   4  0.98000 0.001 0----> Location Value Std.dev. residual
+   5  0.98200 0.001 0----> Location Value Std.dev. residual
+   6  0.97300 0.001 0----> Location Value Std.dev. residual
+   7  0.96700 0.001 0----> Location Value Std.dev. residual
+   8  0.96100 0.001 0----> Location Value Std.dev. residual
+   9  0.98100 0.001 0----> Location Value Std.dev. residual
+  10  0.98400 0.001 0----> Location Value Std.dev. residual
+  11  0.98100 0.001 0----> Location Value Std.dev. residual
+  12  0.98500 0.001 0----> Location Value Std.dev. residual
+  13  1.00000 0.001 0----> Location Value Std.dev. residual
+  14  0.97700 0.001 0----> Location Value Std.dev. residual
+  15  0.98000 0.001 0----> Location Value Std.dev. residual
+  16  0.97700 0.001 0----> Location Value Std.dev. residual
+  17  0.97700 0.001 0----> Location Value Std.dev. residual
+  18  0.96800 0.001 0----> Location Value Std.dev. residual
+  19  0.96500 0.001 0----> Location Value Std.dev. residual
+  20  0.96900 0.001 0----> Location Value Std.dev. residual
+  21  0.99300 0.001 0----> Location Value Std.dev. residual
+  22  1.00000 0.001 0----> Location Value Std.dev. residual
+  23  1.00000 0.001 0----> Location Value Std.dev. residual
+  24  0.98900 0.001 0----> Location Value Std.dev. residual
+  25  0.99000 0.001 0----> Location Value Std.dev. residual
+  26  0.97200 0.001 0----> Location Value Std.dev. residual
+  27  1.00000 0.001 0----> Location Value Std.dev. residual
+  28  0.97500 0.001 0----> Location Value Std.dev. residual
+  29  0.98000 0.001 0----> Location Value Std.dev. residual
+  30  0.96800 0.001 0----> Location Value Std.dev. residual
+  30--------------------------------------------------------> Number of voltage phase measurements
+   1  0.00000000 0.001 0----> Location Value Std.dev. residual
+   2 -0.00724312 0.001 0----> Location Value Std.dev. residual
+   3 -0.02656391 0.001 0----> Location Value Std.dev. residual
+   4 -0.03132866 0.001 0----> Location Value Std.dev. residual
+   5 -0.03253294 0.001 0----> Location Value Std.dev. residual
+   6 -0.03956661 0.001 0----> Location Value Std.dev. residual
+   7 -0.04628613 0.001 0----> Location Value Std.dev. residual
+   8 -0.04757768 0.001 0----> Location Value Std.dev. residual
+   9 -0.05230752 0.001 0----> Location Value Std.dev. residual
+  10 -0.05890486 0.001 0----> Location Value Std.dev. residual
+  11 -0.05230752 0.001 0----> Location Value Std.dev. residual
+  12 -0.02682571 0.001 0----> Location Value Std.dev. residual
+  13  0.02576106 0.001 0----> Location Value Std.dev. residual
+  14 -0.04028220 0.001 0----> Location Value Std.dev. residual
+  15 -0.04035201 0.001 0----> Location Value Std.dev. residual
+  16 -0.04614651 0.001 0----> Location Value Std.dev. residual
+  17 -0.05920157 0.001 0----> Location Value Std.dev. residual
+  18 -0.06070255 0.001 0----> Location Value Std.dev. residual
+  19 -0.06908013 0.001 0----> Location Value Std.dev. residual
+  20 -0.06756170 0.001 0----> Location Value Std.dev. residual
+  21 -0.06087708 0.001 0----> Location Value Std.dev. residual
+  22 -0.05921902 0.001 0----> Location Value Std.dev. residual
+  23 -0.02773328 0.001 0----> Location Value Std.dev. residual
+  24 -0.04591961 0.001 0----> Location Value Std.dev. residual
+  25 -0.02949606 0.001 0----> Location Value Std.dev. residual
+  26 -0.03733259 0.001 0----> Location Value Std.dev. residual
+  27 -0.01445133 0.001 0----> Location Value Std.dev. residual
+  28 -0.03954916 0.001 0----> Location Value Std.dev. residual
+  29 -0.03714061 0.001 0----> Location Value Std.dev. residual
+  30 -0.05309292 0.001 0----> Location Value Std.dev. residual
+  30--------------------------------------------------------> Number of active power injection measurements
+   1  0.25970 0.001 0
+   2  0.39270 0.001 0
+   3 -0.02400 0.001 0
+   4 -0.07600 0.001 0
+   5  0.00000 0.001 0
+   6  0.00000 0.001 0
+   7 -0.22800 0.001 0
+   8 -0.30000 0.001 0
+   9  0.00000 0.001 0
+  10 -0.05800 0.001 0
+  11  0.00000 0.001 0
+  12 -0.11200 0.001 0
+  13  0.37000 0.001 0
+  14 -0.06200 0.001 0
+  15 -0.08200 0.001 0
+  16 -0.03500 0.001 0
+  17 -0.09000 0.001 0
+  18 -0.03200 0.001 0
+  19 -0.09500 0.001 0
+  20 -0.02200 0.001 0
+  21 -0.17500 0.001 0
+  22  0.21590 0.001 0
+  23  0.16000 0.001 0
+  24 -0.08700 0.001 0
+  25  0.00000 0.001 0
+  26 -0.03500 0.001 0
+  27  0.26910 0.001 0
+  28  0.00000 0.001 0
+  29 -0.02400 0.001 0
+  30 -0.10600 0.001 0
+  30--------------------------------------------------------> Number of reactive power injection measurements
+   1 -0.01000 0.001 0
+   2  0.19300 0.001 0
+   3 -0.01200 0.001 0
+   4 -0.01600 0.001 0
+   5  0.00000 0.001 0
+   6  0.00000 0.001 0
+   7 -0.10900 0.001 0
+   8 -0.30000 0.001 0
+   9  0.00000 0.001 0
+  10 -0.02000 0.001 0
+  11  0.00000 0.001 0
+  12 -0.07500 0.001 0
+  13  0.11350 0.001 0
+  14 -0.01600 0.001 0
+  15 -0.02500 0.001 0
+  16 -0.01800 0.001 0
+  17 -0.05800 0.001 0
+  18 -0.00900 0.001 0
+  19 -0.03400 0.001 0
+  20 -0.00700 0.001 0
+  21 -0.11200 0.001 0
+  22  0.39570 0.001 0
+  23  0.06350 0.001 0
+  24 -0.06700 0.001 0
+  25  0.00000 0.001 0
+  26 -0.02300 0.001 0
+  27  0.10540 0.001 0
+  28  0.00000 0.001 0
+  29 -0.00900 0.001 0
+  30 -0.01900 0.001 0
+  82--------------------------------------------------------> Number of active power flow measurements
+   1    2  0.10890 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    1 -0.10860 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   1    3  0.15080 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   3    1 -0.14960 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    4  0.16070 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4    2 -0.15890 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   3    4  0.12560 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4    3 -0.12540 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    5  0.13790 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   5    2 -0.13680 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    6  0.20280 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    2 -0.19990 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4    6  0.22500 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    4 -0.22430 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   5    7  0.13680 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   7    5 -0.13560 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    7  0.09270 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   7    6 -0.09240 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    8  0.24820 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   8    6 -0.24690 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    9  0.05790 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   9    6 -0.05790 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6   10  0.03310 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10    6 -0.03310 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   9   11  0.00000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  11    9  0.00000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   9   10  0.05790 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10    9 -0.05790 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4   12 -0.01670 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12    4  0.01670 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   13 -0.37000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  13   12  0.37000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   14  0.05390 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  14   12 -0.05350 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   15  0.09480 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   12 -0.09410 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   16  0.09260 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  16   12 -0.09180 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  14   15 -0.00850 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   14  0.00850 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  16   17  0.05680 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  17   16 -0.05650 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   18  0.09160 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  18   15 -0.09070 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  18   19  0.05870 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  19   18 -0.05850 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  19   20 -0.03650 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  20   19  0.03660 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   20  0.05920 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  20   10 -0.05860 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   17  0.03370 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  17   10 -0.03350 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   21 -0.02230 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  21   10  0.02280 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   22 -0.03750 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  22   10  0.03820 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  21   22 -0.19780 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  22   21  0.19870 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   23 -0.08810 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  23   15  0.08910 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  22   24 -0.02100 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  24   22  0.02180 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  23   24  0.07090 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  24   23 -0.07020 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  24   25 -0.03860 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  25   24  0.03890 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  25   26  0.03550 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  26   25 -0.03500 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  25   27 -0.07440 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   25  0.07500 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  28   27 -0.06110 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   28  0.06110 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   29  0.06170 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  29   27 -0.06080 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   30  0.07120 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  30   27 -0.06950 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  29   30  0.03680 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  30   29 -0.03650 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   8   28 -0.05310 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  28    8  0.05340 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6   28 -0.00770 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  28    6  0.00770 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  82--------------------------------------------------------> Number of reactive power flow measurements
+   1    2 -0.05090 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    1  0.02170 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   1    3  0.04090 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   3    1 -0.05570 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    4  0.05210 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4    2 -0.06660 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   3    4  0.04370 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4    3 -0.04300 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    5  0.04510 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   5    2 -0.06030 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   2    6  0.07420 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    2 -0.08500 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4    6  0.11380 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    4 -0.11120 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   5    7  0.06210 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   7    5 -0.06880 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    7  0.03170 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   7    6 -0.04020 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    8  0.24430 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   8    6 -0.23920 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6    9 -0.03360 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   9    6  0.03460 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6   10 -0.01920 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10    6  0.02000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   9   11  0.00000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  11    9  0.00000 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   9   10 -0.03460 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10    9  0.03510 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   4   12 -0.02020 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12    4  0.02040 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   13 -0.09260 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  13   12  0.11350 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   14  0.00880 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  14   12 -0.00800 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   15 -0.01060 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   12  0.01190 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  12   16 -0.00100 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  16   12  0.00280 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  14   15 -0.00800 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   14  0.00800 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  16   17 -0.02080 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  17   16  0.02150 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   18  0.00760 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  18   15 -0.00570 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  18   19 -0.00330 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  19   18  0.00380 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  19   20 -0.03780 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  20   19  0.03800 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   20  0.04620 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  20   10 -0.04500 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   17  0.08010 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  17   10 -0.07950 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   21 -0.11670 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  21   10  0.11770 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  10   22 -0.08480 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  22   10  0.08620 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  21   22 -0.22970 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  22   21  0.23160 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  15   23 -0.05250 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  23   15  0.05470 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  22   24  0.07800 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  24   22 -0.07680 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  23   24  0.00880 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  24   23 -0.00750 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  24   25  0.01770 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  25   24 -0.01710 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  25   26  0.02370 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  26   25 -0.02300 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  25   27 -0.00660 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   25  0.00780 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  28   27 -0.06080 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   28  0.06400 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   29  0.01680 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  29   27 -0.01510 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  27   30  0.01670 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  30   27 -0.01350 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  29   30  0.00610 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  30   29 -0.00550 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   8   28 -0.06080 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  28    8  0.04330 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   6   28 -0.02700 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+  28    6  0.01750 0.001 0----> Sending_End Receiving_End Value Std.dev. residual
+   0--------------------------------------------------------> Number of current magnitude measurements
+   0--------------------------------------------------------> Number of current phase measurements
+   0
